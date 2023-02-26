@@ -11,8 +11,7 @@
 /* ************************************************************************** */
 
 #include <ft_vector.h>
-#include <ft_math.h>
-#include <ft_mlx_color.h>
+#include <math.h>
 
 t_vec3	ft_vector_3(float x, float y, float z)
 {
@@ -45,7 +44,7 @@ float	ft_vec3_length(t_vec3 v3)
 {
 	float	temp;
 
-	temp = ft_sqrt(v3.x * v3.x + v3.y * v3.y + v3.z * v3.z);
+	temp = sqrt(v3.x * v3.x + v3.y * v3.y + v3.z * v3.z);
 	return (temp);
 }
 

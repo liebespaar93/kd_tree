@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 #include <ft_vector.h>
-#include <ft_math.h>
+#include <math.h>
 
 t_vec2	ft_vector_2(float x, float y)
 {
@@ -41,7 +41,7 @@ float	ft_vec2_length(t_vec2 v2)
 {
 	float	temp;
 
-	temp = ft_sqrt(v2.x * v2.x + v2.y * v2.y);
+	temp = sqrt(v2.x * v2.x + v2.y * v2.y);
 	return (temp);
 }
 
